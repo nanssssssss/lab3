@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class LinkedListTests {
+
+    @Test
+    public void testPrepend {
+        // Create an empty linked list
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.prepend(3);
+        linkedList.prepend(2);
+        linkedList.prepend(1);
+
+        assertArrayEquals(, linkedList.first());
+        
+    }
+}
